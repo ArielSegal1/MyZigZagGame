@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
+    [HideInInspector]
     public AudioManager instance;
 
 

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Menu.unity
+    guid: 7ff46fe34c1c31048aec99f228615b5c
+  - enabled: 1
     path: Assets/ZigZagGame.unity
     guid: cef1d2f03b33522458f181ee6c13ee35
   m_configObjects: {}
