@@ -10,8 +10,13 @@ public class HideOnStart : MonoBehaviour
     [SerializeField]
     Button menuButton;
 
+    [SerializeField]
+
+    Text highScoreText;
+
     private void Awake() {
         restartButton.gameObject.SetActive(false);    
         menuButton.gameObject.SetActive(false);
+        highScoreText.gameObject.SetActive(false);
     }
 }

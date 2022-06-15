@@ -15,6 +15,7 @@ public class PlayerFallingDeath : MonoBehaviour
     {
         if(rb.position.y < positionDeath){
             if(onceParticle){
+            FindObjectOfType<AudioManager>().Play("explosionDeath");
             GameObject explostion = Instantiate(deathVFX, transform.position, transform.rotation);
             Destroy(explostion, 0.75f); 
             onceParticle = false;

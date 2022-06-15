@@ -20,6 +20,7 @@ public class CharacterMoveMent : MonoBehaviour
     {
         if(!checkGameOver.isGameOver){
         if(Input.GetMouseButtonDown(0)){
+            FindObjectOfType<AudioManager>().Play("click");
             if(movementVector == Vector3.right){
                 movementVector = Vector3.forward;
             }
