@@ -1,11 +1,6 @@
 # MyZigZagGame
-Welcome to my first game project!!
+My first mobile game.
+The game is made using Unity game engine and it is available on Google Play.
 
-The name of it right now changed from zigzag to RollBall!
+The game contains in game advertisements using Unity Ads that I programmed into the game.
 
-you can download to project and open it on unity hub.
-
-I'm updating the gane to git up everytime I finishing an update,
-so dont forget to pull those!
-
-ENJOY!
